@@ -43,11 +43,6 @@
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
       "value": ""
     },
-    "DONATION_LINK": {
-      "description": "Optional: link where you would like to receive donations.",
-      "value": "",
-      "required": false
-    },
     "DEL_CMDS": {
       "description": "Whether to delete commands from users which don't have rights to use that command",
       "value": "True"
@@ -59,11 +54,6 @@
     "ALLOW_EXCL": {
       "description": "Whether to allow using exclamation marks ! for commands as well as /.",
       "value": "True"
-    },
-    "BAN_STICKER": {
-      "description": "Which sticker to use when banning people.",
-      "value": "",
-      "required": false
     }
   },
   "addons": [
