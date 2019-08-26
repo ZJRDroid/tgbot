@@ -26,14 +26,6 @@
       "description": "Your username",
       "value": ""
     },
-    "WEBHOOK": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
-      "value": "ANYTHING"
-    },
-    "URL": {
-      "description": "The URL your webhook should connect to (only needed for webhook mode)",
-      "value": ""
-    },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
       "value": "",
@@ -53,23 +45,20 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": ""
-    },
-    "PORT": {
-      "description": "Port to use for your webhooks",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "DEL_CMDS": {
       "description": "Whether to delete commands from users which don't have rights to use that command",
-      "value": "true"
+      "value": "True"
     },
     "STRICT_GBAN": {
       "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-      "value": "true"
+      "value": "True"
     },
     "ALLOW_EXCL": {
       "description": "Whether to allow using exclamation marks ! for commands as well as /.",
-      "value": "true"
+      "value": "True"
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people.",
